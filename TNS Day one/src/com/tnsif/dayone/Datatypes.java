@@ -4,20 +4,32 @@ public class Datatypes {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int num = 20/3;
-		System.out.println(num);
+		byte byteMax = 127;//1 byte
+		byte byteMin = -128;
+		System.out.println("byteMax: "+byteMax);
+		System.out.println("byteMin: "+byteMin);
 		
-		float num1 = 8/3f;
-		System.out.println(num1);
+		short shortMax = 32767; // 2 byte
+		short shortMin = -32768;
+		System.out.println("shortMax: "+shortMax);
+		System.out.println("shortMin: "+shortMin);
 		
-		double num2 = 8/3f;
+		int num = 20/3; //4 byte
+		//int Max 2147483647    int Min  -2147483648
+		System.out.println("int "+num);
+		
+		float num1 = 8/3f; //4 byte
+		//float Max 9223372036854775807   float Min 9223372036854775808
+		System.out.println("float: "+num1);
+		
+		double num2 = 8/3f; // 8 byte
 		System.out.println(num2);
 		
-		char s = 'A';
-		System.out.println(s);
+		char s = 65;//2 byte
+		System.out.println("char: "+s);
 		
-		boolean result = false;
-		System.out.println(result);
+		boolean result = false; //1 byte
+		System.out.println("boolean: "+result);
 	}
 
 }
