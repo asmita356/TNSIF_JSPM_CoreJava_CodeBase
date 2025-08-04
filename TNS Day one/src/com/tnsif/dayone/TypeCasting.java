@@ -3,7 +3,7 @@ package com.tnsif.dayone;
 public class TypeCasting {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		//implicit type casting - Widening
 		
 		byte b = 10;
@@ -24,7 +24,7 @@ public class TypeCasting {
 		long l = (long) D;
 		System.out.println(l);
 		
-		int i1 = 130;
+		int i1 = 130; //data lost
 		byte B = (byte) i1;
 		System.out.println(B);
 	}
