@@ -27,10 +27,10 @@ public class Datatypes {
 		double num2 = 8/3f; // 8 byte
 		System.out.println(num2);
 		
-		char s = 65;//2 bit
+		char s = 65;//2 byte
 		System.out.println("char: "+s);
 		
-		boolean result = false; //1 byte
+		boolean result = false; //1 bit
 		System.out.println("boolean: "+result);
 	}
 
