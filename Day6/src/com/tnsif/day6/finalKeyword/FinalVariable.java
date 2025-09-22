@@ -1,5 +1,5 @@
 package com.tnsif.day6.finalKeyword;
-/*the final keyword declared with variable, method and classs indicates the "this cannot be modified
+/*the final keyword declared with variable, method and class indicates the "this cannot be modified
  * the vale of final variable cannot be changed
  * cannot be override
  * we cannot make a class immutable without making it final
